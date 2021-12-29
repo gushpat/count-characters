@@ -1,7 +1,5 @@
 <?php 
 
-
-
     if(!empty($_POST['phrase'])) //se phrase não é nulo
     {
         $phrase = $_POST['phrase']; // obtem a variavel phrase do formulario
@@ -17,12 +15,8 @@
             echo 'algo deu errado';
         }
 
-
     }
 
-
-
-    
 
 ?>
 
@@ -60,11 +54,6 @@
   </div>
 
   </div>
-
-
-
-
-
 
   <div class="column side" style="background-color:#ffffff;"></div>
 
