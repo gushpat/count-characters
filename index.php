@@ -1,4 +1,7 @@
 <?php 
+   header("Content-Type: text/html; charset=utf-8");
+   
+
 
     if(!empty($_POST['phrase'])) //se phrase não é nulo
     {
@@ -8,6 +11,7 @@
             $numchar = strlen($phrase); //strlen() returna o tamanho da string
             $numphrase =  "Your sentence has $numchar characters";
             echo "<script type='text/javascript'>alert('$numphrase');</script>";
+
             
         }
         else
